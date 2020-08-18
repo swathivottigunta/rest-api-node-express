@@ -1,0 +1,24 @@
+{
+  "name": "posts-json-api",
+  "version": "1.0.0",
+  "description": "Back end application - node & express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "test": "mocha"
+  },
+  "author": "Swathi Vottigunta",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "memory-cache": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "nodemon": "^2.0.4"
+  }
+}
